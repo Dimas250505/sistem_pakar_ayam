@@ -1,0 +1,42 @@
+[
+  {
+    "id": "R1",
+    "if": ["G001", "G002", "G003", "G004"],
+    "then": "P01",
+    "cf": 0.8,
+    "penyakit": "Avian Influenza",
+    "solusi": "Isolasi ayam yang sakit, kubur bangkai ayam, beri antibiotik, pemberian vitamin, semprot desinfektan, vaksinasi untuk pencegahan."
+  },
+  {
+    "id": "R2",
+    "if": ["G005", "G006", "G007", "G008", "G009"],
+    "then": "P02",
+    "cf": 0.7,
+    "penyakit": "Tetelo (Newcastle Disease)",
+    "solusi": "Lakukan vaksinasi secara teratur dan musnahkan ayam yang benar-benar sakit."
+  },
+  {
+    "id": "R3",
+    "if": ["G010", "G011", "G012", "G013"],
+    "then": "P03",
+    "cf": 0.6,
+    "penyakit": "Kolera",
+    "solusi": "Bersihkan kandang, berantas tikus dan lalat, cuci peralatan, ciptakan suasana nyaman, dan beri vitamin."
+  },
+  {
+    "id": "R4",
+    "if": ["G014", "G015", "G016", "G017", "G018", "G019", "G020", "G021", "G022"],
+    "then": "P04",
+    "cf": 0.75,
+    "penyakit": "Gumboro",
+    "solusi": "Vaksinasi, perbaiki tatalaksana pemeliharaan, dan terapkan biosekuriti ketat."
+  },
+  {
+    "id": "R5",
+    "if": ["G023", "G024", "G025", "G026", "G027"],
+    "then": "P05",
+    "cf": 0.65,
+    "penyakit": "Infectious Coryza",
+    "solusi": "Isolasi ayam yang terinfeksi, bersihkan kandang, dan berikan antibiotik sesuai petunjuk dokter hewan."
+  }
+]
